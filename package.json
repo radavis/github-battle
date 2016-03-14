@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
-    "server": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "Richard Davis <rdavis.bacs@gmail.com> (https://radavis.github.io/)",
@@ -13,7 +13,8 @@
   "dependencies": {
     "jquery": "^2.2.1",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",

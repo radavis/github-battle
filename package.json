@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "webpack -p",
+    "server": "webpack-dev-server"
   },
   "keywords": [],
   "author": "Richard Davis <rdavis.bacs@gmail.com> (https://radavis.github.io/)",

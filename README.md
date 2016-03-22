@@ -1,6 +1,3 @@
-## Left off at...
+## GitHub Battle
 
-http://courses.reactjsprogram.com/courses/reactjsfundamentals/lectures/760395
-
-minute 17
-
+Code from [React.js Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals)

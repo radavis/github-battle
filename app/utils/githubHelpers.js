@@ -1,8 +1,8 @@
 var axios = require('axios');
 
-var githubId = "YOUR_CLIENT_ID";
-var githubSecret = "YOUR_SECRET_ID";
-var params = "?client_id=" + githubId + "&client_secret=" + githubSecret;
+var githubClientId = "GITHUB_CLIENT_ID";
+var githubClientSecret = "GITHUB_CLIENT_SECRET";
+var params = "?client_id=" + githubClientId + "&client_secret=" + githubClientSecret;
 
 function getUserInfo(username) {
   return axios.get('https://api.github.com/users/' + username + params)

@@ -16,9 +16,9 @@ function UserDetails(user) {
         Username: {user.info.login}
       </li>
 
-      {!!user.info.location && <li className="list-group-item">Name: {user.info.location}</li>}
+      {!!user.info.location && <li className="list-group-item">Location: {user.info.location}</li>}
 
-      {!!user.info.company && <li className="list-group-item">Name: {user.info.company}</li>}
+      {!!user.info.company && <li className="list-group-item">Company: {user.info.company}</li>}
 
       <li className="list-group-item">
         Followers: {user.info.followers}

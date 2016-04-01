@@ -9,7 +9,7 @@ var Loading = require('./Loading');
 
 function StartOver() {
   return(
-    <div className="col-sm-12" styles={styles.space}>
+    <div className="col-sm-12" style={styles.space}>
       <Link to="/playerOne">
         <button type="button" className="btn btn-lg btn-danger">Start Over</button>
       </Link>
@@ -20,7 +20,7 @@ function StartOver() {
 function Results(props) {
   if(props.isLoading === true) {
     return(
-      <Loading />
+      <Loading text="Reticulating Splines" speed={100} />
     )
   }
 

@@ -1,7 +1,7 @@
 var axios = require('axios');
 
-var githubClientId = "GITHUB_CLIENT_ID";
-var githubClientSecret = "GITHUB_CLIENT_SECRET";
+var githubClientId = process.env.GITHUB_CLIENT_ID ? process.env.GITHUB_CLIENT_ID : "GITHUB_CLIENT_ID";
+var githubClientSecret = process.env.GITHUB_CLIENT_SECRET ? process.env.GITHUB_CLIENT_SECRET : "GITHUB_CLIENT_SECRET";
 var params = "?client_id=" + githubClientId + "&client_secret=" + githubClientSecret;
 
 function getUserInfo(username) {

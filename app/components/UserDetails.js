@@ -1,5 +1,5 @@
 var React = require('react');
-var PropTypes = React.PropTypes
+var PropTypes = React.PropTypes;
 
 function UserDetails(user) {
   return (
@@ -32,7 +32,7 @@ function UserDetails(user) {
         Public Repos: {user.info.public_repos}
       </li>
 
-      {!!user.info.blog && <li className="list-group-item">Blog: <a href="{user.info.blog}">{user.info.blog}</a></li>}
+      {!!user.info.blog && <li className="list-group-item">Blog: <a href={user.info.blog}>{user.info.blog}</a></li>}
     </div>
   )
 }
